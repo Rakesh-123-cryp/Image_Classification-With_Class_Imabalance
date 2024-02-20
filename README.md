@@ -4,7 +4,6 @@
 
 When the number of samples available for each class is not equal it is said to be a class imbalance problem. The imbalance can vary depending on the ratio of the data count between the classes.
 The figure given below shows a visual representation of the problem.
-# ![Imbalance Problem Image](/images/imbalance.)
 
 ## Different Solutions available
 
@@ -15,7 +14,6 @@ This is a very common and effective method that can be exploited for the imbalan
 There are two kinds of data augmentation:
 * **Augmenting using random rotations and transformations**
   This is considered when the data is very scarce and not enough to generate examples. There are two different knids of augmentation. The **_Spatial Augmentation_** and **_Pixelwise Augmentation_**
-  ### ![Imbalance Problem Image](/images/augmentation.)
   
   - The Spatial Augmentation performs rotation, transformation or crops to alter the spatial details in the image.
   - The Pixelwise Augmentation changes the luminance, intensity and contrast of the image
