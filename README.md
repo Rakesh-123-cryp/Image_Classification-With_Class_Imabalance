@@ -25,8 +25,9 @@ There are two kinds of data augmentation:
   - The encoder encodes the input image into the Gaussian distribution whose mean and variance is predicted after which the decoder samples from this latent distribution using the reparameterization trick to generate an image.
 
 This code lets you train the model and custom data loaders can be used by replacing the data_Loader.py file
-'''console
+
+```console
   python Resnet18_Train.py
-  '''
+```
 
  
