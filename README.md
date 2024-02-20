@@ -1,4 +1,4 @@
-# Fasion_Image_Classification-With_Class_Imabalance
+# Fasion Image Classification with Class Imabalance
 
 ## What is Class Imabalance
 
