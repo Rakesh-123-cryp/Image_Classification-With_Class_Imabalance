@@ -23,4 +23,10 @@ There are two kinds of data augmentation:
   - VAEs are models that can learn the data distribution assuming the latent distribution learned is one of Gaussian.
   - The true posterior distribution (The true distribution of the image pixels) are intractable, so VAE network uses an encoder to approximate the posterior into a gaussiam distribution.
   - The encoder encodes the input image into the Gaussian distribution whose mean and variance is predicted after which the decoder samples from this latent distribution using the reparameterization trick to generate an image.
+
+This code lets you train the model and custom data loaders can be used by replacing the data_Loader.py file
+'''console
+  python Resnet18_Train.py
+  '''
+
  
